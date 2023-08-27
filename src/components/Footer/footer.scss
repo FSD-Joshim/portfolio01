@@ -1,0 +1,115 @@
+.footer {
+  .short_info_footer {
+    .short-text {
+      margin-top: 50px;
+      p {
+        font-size: 18px;
+        font-weight: 400;
+        color: $white;
+        line-height: 30px;
+        padding-right: 60px;
+      }
+    }
+  }
+  .footer-before-list {
+    h4 {
+      font-weight: 700;
+      font-size: 20px;
+      color: $white;
+    }
+    .before-List {
+      margin-top: 54px;
+      a {
+        display: block;
+        font-weight: 400;
+        font-size: 18px;
+        color: $white;
+        margin-bottom: 15px;
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+  .footer-newsletter-part {
+    h4 {
+      font-weight: 700;
+      font-size: 20px;
+      color: $white;
+    }
+    .newsletter-body {
+      margin-top: 54px;
+      p {
+        font-size: 17px;
+        font-weight: 400;
+        color: $white;
+        line-height: 30px;
+      }
+      .newsletter-form {
+        background: $white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 8px;
+        input {
+          background: transparent;
+          border: none;
+          outline: none;
+          margin-left: 15px;
+          font-size: 16px;
+        }
+        button {
+          background-color: $main;
+          padding: 18px 25px;
+          border: none;
+          outline: none;
+          border-top-right-radius: 8px;
+          border-bottom-right-radius: 8px;
+          svg {
+            width: 25px;
+            height: 25px;
+            fill: $main;
+            stroke: $white;
+          }
+        }
+      }
+      .footer-scioal {
+        margin-top: 25px;
+        display: flex;
+        gap: 15px;
+        .images {
+          width: 40px;
+          height: 40px;
+          background-color: $white;
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          cursor: pointer;
+          transition: all linear 0.3s;
+          &:hover {
+            background-color: $main;
+            svg {
+              path {
+                fill: $white;
+                transition: all linear 0.3s;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.copy {
+  margin-top: 30px;
+  padding: 20px 0;
+  width: 100%;
+  background-color: $main;
+  text-align: center;
+  span {
+    color: $white;
+    font-weight: 400;
+    font-size: 14px;
+  }
+}

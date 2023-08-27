@@ -1,0 +1,104 @@
+.client {
+  margin-bottom: 128px;
+  .client-left {
+    h2 {
+      color: $white;
+      font-weight: 700;
+      font-size: 42px;
+      padding-right: 50px;
+      margin-bottom: 24px;
+      span {
+        color: $yeallo;
+      }
+    }
+    p {
+      color: $white-secondary;
+      font-weight: 400;
+      font-size: 18px;
+      padding-right: 50px;
+      line-height: 30px;
+      margin-bottom: 40px;
+    }
+    .clients-img {
+      position: relative;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .count {
+        position: absolute;
+        content: "";
+        bottom: 0;
+        right: -50px;
+        padding: 40px 30px;
+        border: 4px solid $white;
+        background-color: $main;
+        border-top-left-radius: 16px;
+        span {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: $white;
+          font-size: 48px;
+          font-weight: 700;
+          h1 {
+            color: $white;
+            font-size: 48px;
+            font-weight: 700;
+            margin-bottom: 0 !important;
+          }
+        }
+        p {
+          color: $white;
+          font-size: 18px;
+          font-weight: 400;
+          margin-bottom: 0;
+          padding-right: 0;
+        }
+      }
+    }
+  }
+  .client-right {
+    padding: 38px;
+    border: 1px solid $black;
+    box-sizing: border-box;
+    border-radius: 8px;
+    transition: all linear 0.3s;
+    &:hover {
+      background-color: $main;
+    }
+    svg {
+      width: 25px;
+      height: 25px;
+      margin-bottom: 20px;
+    }
+    h4 {
+      color: $white;
+      font-weight: 700;
+      font-size: 20px;
+      margin-bottom: 16px;
+    }
+    p {
+      font-size: 18px;
+      font-weight: 400;
+      color: $white;
+      line-height: 30px;
+      margin-bottom: 24px;
+    }
+    .button-wrap {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      a {
+        color: $white;
+        font-size: 18px;
+        font-weight: 400;
+      }
+      svg {
+        color: $white;
+        margin-bottom: 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,84 @@
+.work {
+  margin-bottom: 128px;
+  .work-content {
+    margin-bottom: 40px;
+    h2 {
+      font-weight: 700;
+      font-size: 42px;
+      color: $white;
+      margin-bottom: 25px;
+      span {
+        color: $yeallo;
+      }
+    }
+    p {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 30px;
+      color: $white-secondary;
+      padding: 0 50px;
+    }
+    .work-left {
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        background: linear-gradient(
+          to bottom,
+          rgb(123, 8, 255, 0.9),
+          rgba(0, 0, 0, 0.87)
+        );
+      }
+    }
+  }
+  .work-right {
+    .work-right-content {
+      border-radius: 8px;
+      padding: 30px;
+      background-color: $main;
+      h4 {
+        color: $white;
+        font-size: 24px;
+        font-weight: 700;
+        padding-right: 230px;
+        margin-bottom: 16px;
+        span {
+          color: $yeallo;
+        }
+      }
+      p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        color: $white-secondary;
+        padding-right: 30px;
+        margin-bottom: 0;
+      }
+    }
+    .client-img-one {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  .client-img-one {
+    padding-top: 24px;
+    img {
+      width: 100%;
+      object-fit: cover;
+      box-sizing: border-box;
+      margin-right: 10px;
+      border-radius: 8px;
+    }
+  }
+  .client-img-two {
+    padding-top: 24px;
+    img {
+      width: 100%;
+      object-fit: cover;
+      box-sizing: border-box;
+      margin-right: 10px;
+      border-radius: 8px;
+    }
+  }
+}

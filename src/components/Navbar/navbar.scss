@@ -1,0 +1,35 @@
+nav {
+  padding-top: 30px !important;
+  .navbar-nav {
+    .shirina {
+      margin: 0 30px !important;
+      position: relative;
+      &::after {
+        position: absolute;
+        content: "";
+        bottom: -5px;
+        left: 0;
+        width: 0;
+        height: 3px;
+        background-color: $main;
+        transition: all linear 0.3s;
+      }
+      &:hover {
+        &::after {
+          width: 100%;
+        }
+      }
+      a {
+        font-size: 18px;
+        // margin: 0 15px;
+        color: $white;
+        // &:first-child {
+        //   margin-left: 0;
+        // }
+        // &:last-child {
+        //   margin-right: 0;
+        // }
+      }
+    }
+  }
+}
