@@ -22,7 +22,7 @@ const Footer = () => {
       <div className="footer">
         <div className="container">
           <div className="row">
-            <div className="col-lg-3">
+            <div className="col-md-6 col-lg-3">
               <div className="short_info_footer">
                 <Link href="#">
                   <Image src={Logo} loading="lazy" alt="Footer-Logo" />
@@ -35,7 +35,7 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-3">
+            <div className="col-md-3 col-lg-3 col-6">
               <div className="footer-before-list">
                 <h4 className={montserrat.className}>Services</h4>
                 <div className="before-List">
@@ -48,7 +48,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="col-lg-3">
+            <div className="col-md-3 col-lg-3 col-6">
               <div className="footer-before-list">
                 <h4 className={montserrat.className}>Resources</h4>
                 <div className="before-List">
@@ -61,7 +61,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="col-lg-3">
+            <div className="col-md-8 col-lg-3">
               <div className="footer-newsletter-part">
                 <h4 className={montserrat.className}>Newsletter</h4>
                 <div className="newsletter-body">

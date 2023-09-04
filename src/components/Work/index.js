@@ -26,12 +26,12 @@ const Work = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-7">
+            <div className="col-md-8 col-lg-7 ">
               <div className="work-left">
                 <Image src={WorkleftImg} alt="WorkleftImg" />
               </div>
             </div>
-            <div className="col-lg-5">
+            <div className="col-md-4 col-lg-5">
               <div className="work-right">
                 <div className="work-right-content">
                   <h4 className={montserrat.className}>
@@ -49,12 +49,12 @@ const Work = () => {
                 </div> */}
               </div>
               <div className="row">
-                <div className="col-lg-8">
+                <div className="col-sm-8 col-lg-8">
                   <div className="client-img-one">
                     <Image src={ClientImg1} alt="workImg" />
                   </div>
                 </div>
-                <div className="col-lg-4">
+                <div className="col-sm-4 col-lg-4">
                   <div className="client-img-two">
                     <Image src={ClientImg2} alt="workImg" />
                   </div>

@@ -55,10 +55,10 @@ const Clients = () => {
                 </div>
               </div>
             </div>
-            <div className=" offset-1 col-lg-6 ">
+            <div className="offset-lg-1 d-flex col-lg-6 mt-md-4">
               <div className="row row-gap-4">
                 {Devaice.map((item, i) => (
-                  <div className="col-lg-6">
+                  <div className="col-sm-6  col-lg-6">
                     <div key={i} className="client-right">
                       {item.icons}
                       <h4 className={montserrat.className}>{item.title}</h4>

@@ -1,5 +1,22 @@
 .work {
   margin-bottom: 128px;
+  @include media-breakpoint-down(xl) {
+    margin-bottom: 110px;
+  }
+  @include media-breakpoint-down(lg) {
+    margin-bottom: 100px;
+  }
+  @include media-breakpoint-down(md) {
+    margin-bottom: 90px;
+  }
+  @include media-breakpoint-down(sm) {
+    margin-top: 120px;
+    margin-bottom: 80px;
+  }
+  @include media-breakpoint-down(xs) {
+    margin-top: 120px;
+    margin-bottom: 80px;
+  }
   .work-content {
     margin-bottom: 40px;
     h2 {
@@ -10,6 +27,22 @@
       span {
         color: $yeallo;
       }
+      @include media-breakpoint-down(lg) {
+        font-size: 42px;
+        margin-bottom: 25px;
+      }
+      @include media-breakpoint-down(md) {
+        font-size: 42px;
+        margin-bottom: 22px;
+      }
+      @include media-breakpoint-down(sm) {
+        font-size: 40px;
+        margin-bottom: 20px;
+      }
+      @include media-breakpoint-down(xs) {
+        font-size: 30px;
+        margin-bottom: 20px;
+      }
     }
     p {
       font-weight: 400;
@@ -17,25 +50,68 @@
       line-height: 30px;
       color: $white-secondary;
       padding: 0 50px;
-    }
-    .work-left {
-      img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        background: linear-gradient(
-          to bottom,
-          rgb(123, 8, 255, 0.9),
-          rgba(0, 0, 0, 0.87)
-        );
+      @include media-breakpoint-down(xxl) {
+        padding: 0 25px;
+      }
+      @include media-breakpoint-down(xl) {
+        font-size: 18px;
+        line-height: 30px;
+        padding: 0 14px;
+      }
+      @include media-breakpoint-down(lg) {
+        font-size: 18px;
+        line-height: 30px;
+        padding: 0 54px;
+      }
+      @include media-breakpoint-down(md) {
+        font-size: 18px;
+        line-height: 30px;
+        padding: 0 20px;
+      }
+      @include media-breakpoint-down(sm) {
+        font-size: 17px;
+        line-height: 28px;
+        padding: 0;
+      }
+      @include media-breakpoint-down(xs) {
+        font-size: 16px;
+        line-height: 24px;
+        padding: 0;
       }
     }
   }
+  .work-left {
+    img {
+      width: 100% !important;
+      height: 100% !important;
+      object-fit: cover;
+      // background: linear-gradient(
+      //   to bottom,
+      //   rgb(123, 8, 255, 0.9),
+      //   rgba(0, 0, 0, 0.87)
+      // );
+    }
+  }
   .work-right {
+    @include media-breakpoint-down(md) {
+      margin-top: 30px;
+    }
+    @include media-breakpoint-down(sm) {
+      margin-top: 30px;
+    }
+    @include media-breakpoint-down(xs) {
+      margin-top: 30px;
+    }
     .work-right-content {
       border-radius: 8px;
       padding: 30px;
       background-color: $main;
+      @include media-breakpoint-down(xl) {
+        padding: 20px;
+      }
+      @include media-breakpoint-down(lg) {
+        padding: 10px;
+      }
       h4 {
         color: $white;
         font-size: 24px;
@@ -45,6 +121,29 @@
         span {
           color: $yeallo;
         }
+        @include media-breakpoint-down(xxl) {
+          font-size: 22px;
+          padding-right: 175px;
+        }
+        @include media-breakpoint-down(xl) {
+          font-size: 22px;
+          padding-right: 120px;
+        }
+        @include media-breakpoint-down(lg) {
+          font-size: 20px;
+          padding-right: 20px;
+        }
+        @include media-breakpoint-down(md) {
+          font-size: 24px;
+          padding-right: 245px;
+        }
+        @include media-breakpoint-down(sm) {
+          padding: 0;
+          font-size: 24px;
+        }
+        @include media-breakpoint-down(xs) {
+          padding: 0;
+        }
       }
       p {
         font-weight: 400;
@@ -53,6 +152,35 @@
         color: $white-secondary;
         padding-right: 30px;
         margin-bottom: 0;
+        @include media-breakpoint-down(xxl) {
+          font-size: 16px;
+          line-height: 28px;
+        }
+        @include media-breakpoint-down(xl) {
+          font-size: 14px;
+          line-height: 20px;
+          padding-right: 0;
+        }
+        @include media-breakpoint-down(lg) {
+          font-size: 14px;
+          line-height: 20px;
+          padding-right: 0;
+        }
+        @include media-breakpoint-down(md) {
+          font-size: 18px;
+          line-height: 30px;
+          padding-right: 28px;
+        }
+        @include media-breakpoint-down(sm) {
+          font-size: 17px;
+          line-height: 28px;
+          padding: 0;
+        }
+        @include media-breakpoint-down(xs) {
+          font-size: 16px;
+          line-height: 24px;
+          padding: 0;
+        }
       }
     }
     .client-img-one {
@@ -63,22 +191,55 @@
   }
   .client-img-one {
     padding-top: 24px;
+    @include media-breakpoint-down(lg) {
+      padding-top: 20px;
+    }
     img {
       width: 100%;
       object-fit: cover;
       box-sizing: border-box;
+      overflow: hidden;
       margin-right: 10px;
       border-radius: 8px;
+      height: 368px;
+      @include media-breakpoint-down(xxl) {
+        height: 294px;
+      }
+      @include media-breakpoint-down(xl) {
+        height: 248px;
+      }
+      @include media-breakpoint-down(lg) {
+        height: 172px;
+      }
+      @include media-breakpoint-down(md) {
+        height: auto;
+      }
     }
   }
   .client-img-two {
     padding-top: 24px;
+    @include media-breakpoint-down(lg) {
+      padding-top: 20px;
+    }
     img {
       width: 100%;
       object-fit: cover;
       box-sizing: border-box;
       margin-right: 10px;
       border-radius: 8px;
+      height: 368px;
+      @include media-breakpoint-down(xxl) {
+        height: 294px;
+      }
+      @include media-breakpoint-down(xl) {
+        height: 248px;
+      }
+      @include media-breakpoint-down(lg) {
+        height: 172px;
+      }
+      @include media-breakpoint-down(md) {
+        height: 378px;
+      }
     }
   }
 }

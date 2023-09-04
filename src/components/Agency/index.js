@@ -21,7 +21,7 @@ const Agency = () => {
       <div className="agency">
         <div className="container">
           <div className="row">
-            <div className="col-lg-6 m-auto">
+            <div className="col-lg-8 col-xl-6 m-auto">
               <div className="agency-content text-center">
                 <h2 className={montserrat.className}>
                   Run Agency Smartly with Our <span>Team Member.</span>
@@ -30,7 +30,7 @@ const Agency = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-5">
+            <div className="col-md-6  col-lg-5">
               <div className="agency-left">
                 <Image className="imgmain" src={AgencyImg} alt="AgencyImg" />
                 <Image
@@ -40,7 +40,7 @@ const Agency = () => {
                 />
               </div>
             </div>
-            <div className="offset-1 col-lg-6">
+            <div className="offset-lg-1 col-md-6 col-lg-6">
               <div className="agency-right">
                 <div className="our-client">
                   <h3 className={montserrat.className}>

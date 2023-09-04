@@ -1,0 +1,117 @@
+.subscribe {
+  margin-bottom: 140px;
+  @include media-breakpoint-down(lg) {
+    margin-bottom: 100px;
+  }
+  @include media-breakpoint-down(md) {
+    margin-bottom: 90px;
+  }
+  @include media-breakpoint-down(sm) {
+    margin-bottom: 80px;
+  }
+  @include media-breakpoint-down(xs) {
+    margin-bottom: 80px;
+  }
+  .container {
+    .subscribe_bg {
+      padding: 100px 50px;
+      background-color: $main;
+      border-top-right-radius: 24px;
+      border-bottom-left-radius: 24px;
+      @include media-breakpoint-down(lg) {
+        padding: 80px 40px;
+      }
+      @include media-breakpoint-down(md) {
+        padding: 60px 30px;
+      }
+      @include media-breakpoint-down(sm) {
+        padding: 30px;
+      }
+      @include media-breakpoint-down(xs) {
+        padding: 20px;
+      }
+      .subs_content {
+        h2 {
+          color: $white;
+          font-size: 42px;
+          font-weight: 700;
+          @include media-breakpoint-down(xl) {
+            font-size: 38px;
+          }
+          @include media-breakpoint-down(lg) {
+            font-size: 40px;
+          }
+          @include media-breakpoint-down(md) {
+            font-size: 38px;
+          }
+          @include media-breakpoint-down(sm) {
+            font-size: 30px;
+          }
+          @include media-breakpoint-down(xs) {
+            font-size: 30px;
+          }
+        }
+      }
+      .newsletter-form {
+        background: $white;
+        border-radius: 8px;
+        margin-left: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        @include media-breakpoint-down(xl) {
+          margin-left: 0;
+        }
+        @include media-breakpoint-down(lg) {
+          margin-left: 0;
+          margin-top: 30px;
+        }
+        @include media-breakpoint-down(md) {
+          margin-left: 0;
+          margin-top: 30px;
+        }
+        @include media-breakpoint-down(sm) {
+          margin-left: 0;
+        }
+        @include media-breakpoint-down(xs) {
+          margin-left: 0;
+        }
+        input {
+          background: transparent;
+          border: none;
+          outline: none;
+          margin-left: 15px;
+          font-size: 16px;
+          width: 60%;
+        }
+        button {
+          background-color: $main;
+          padding: 8px 12px;
+          border: none;
+          outline: none;
+          border-radius: 8px;
+          margin: 8px;
+
+          svg {
+            width: 40px;
+            height: 40px;
+            fill: $white;
+            stroke: $white;
+            @include media-breakpoint-down(md) {
+              width: 24px;
+              height: 24px;
+            }
+            @include media-breakpoint-down(sm) {
+              width: 20px;
+              height: 20px;
+            }
+            @include media-breakpoint-down(xs) {
+              width: 20px;
+              height: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

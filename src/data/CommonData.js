@@ -1,7 +1,11 @@
+import Decco from "@/assets/Svg/Decco";
 import Digital from "@/assets/Svg/Digital";
+import Emad from "@/assets/Svg/Emad";
 import Facebook from "@/assets/Svg/Facebook";
 import Graphic from "@/assets/Svg/Graphic";
 import Insta from "@/assets/Svg/Insta";
+import Lori from "@/assets/Svg/Lori";
+import Mart from "@/assets/Svg/Mart";
 import Pinterest from "@/assets/Svg/Pinterest";
 import Twitter from "@/assets/Svg/Twitter";
 import Uxui from "@/assets/Svg/UxUi";
@@ -114,5 +118,24 @@ export const Devaice = [
     discription:
       "Web applications provide a flexible solution thank to their plat independent",
     readMore: "Start Discovery",
+  },
+];
+
+export const Reputed = [
+  {
+    icons: <Mart />,
+    title: "Happy Mart",
+  },
+  {
+    icons: <Lori />,
+    title: "Lori Cracker",
+  },
+  {
+    icons: <Emad />,
+    title: "Emad Fashion",
+  },
+  {
+    icons: <Decco />,
+    title: "Docco Semims",
   },
 ];
