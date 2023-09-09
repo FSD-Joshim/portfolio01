@@ -48,7 +48,7 @@ const Agency = () => {
                   <p className={montserrat.className}>
                     There are many variations of passages of Lorem Ipsum
                     availabl , but the majority have suffered alteration in some
-                    for by injected humour, or randomised words which don't
+                    for by injected humour, or randomised words which dont
                     look.There are many variations of passages.
                   </p>
                 </div>

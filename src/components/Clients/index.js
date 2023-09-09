@@ -42,7 +42,7 @@ const Clients = () => {
                 </p>
                 <div className="clients-img">
                   <Image src={clientImg} loading="lazy" alt="ClientPic" />
-                  <div className="count text-center">
+                  <div className="classcunt text-center">
                     <span className={openSans.className}>
                       <motion.h1 className={openSans.className}>
                         {rounded}
