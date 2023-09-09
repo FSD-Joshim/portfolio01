@@ -7,7 +7,6 @@ import Partners from "@/components/Partners";
 import Project from "@/components/Project";
 import Subscribe from "@/components/Subscribe";
 import Work from "@/components/Work";
-
 export default function Home() {
   return (
     <>
