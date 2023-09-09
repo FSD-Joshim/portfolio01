@@ -24,7 +24,6 @@ const Clients = () => {
 
   useEffect(() => {
     const animation = animate(count, 10, { duration: 1 });
-
     return animation.stop;
   }, []);
   return (
@@ -58,8 +57,8 @@ const Clients = () => {
             <div className="offset-lg-1 d-flex col-lg-6 mt-md-4">
               <div className="row row-gap-4">
                 {Devaice.map((item, i) => (
-                  <div className="col-sm-6  col-lg-6">
-                    <div key={i} className="client-right">
+                  <div key={i} className="col-sm-6  col-lg-6">
+                    <div className="client-right">
                       {item.icons}
                       <h4 className={montserrat.className}>{item.title}</h4>
                       <p className={openSans.className}>{item.discription}</p>

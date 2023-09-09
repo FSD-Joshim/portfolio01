@@ -53,9 +53,11 @@ const Footer = () => {
                 <h4 className={montserrat.className}>Resources</h4>
                 <div className="before-List">
                   {FooterAfterList.map((item, i) => (
-                    <Link className={dmSans.className} href={item.link} key={i}>
-                      {item.title}
-                    </Link>
+                    <div key={i}>
+                      <Link className={dmSans.className} href={item.link}>
+                        {item.title}
+                      </Link>
+                    </div>
                   ))}
                 </div>
               </div>
@@ -76,7 +78,9 @@ const Footer = () => {
                   </div>
                   <div className="footer-scioal">
                     {footerSocial.map((item, i) => (
-                      <div className="images">{item.name}</div>
+                      <div key={i} className="images">
+                        {item.name}
+                      </div>
                     ))}
                   </div>
                 </div>

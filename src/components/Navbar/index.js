@@ -28,8 +28,8 @@ const Menubar = () => {
               navbarScroll
             >
               {Menudata.map((item, i) => (
-                <div className="shirina">
-                  <Link className={dmSans.className} href={item.link} key={i}>
+                <div className="shirina" key={i}>
+                  <Link className={dmSans.className} href={item.link}>
                     {item.title}
                   </Link>
                 </div>

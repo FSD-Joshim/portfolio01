@@ -2,6 +2,9 @@
 import React from "react";
 import { Montserrat, DM_Sans, Open_Sans } from "next/font/google";
 import Image from "next/image";
+import AgencyImg from "@/assets/agency.webp";
+import AgencyImgsub from "@/assets/agencysub.png";
+import { motion, spring } from "framer-motion";
 const montserrat = Montserrat({
   subsets: ["latin"],
 });
@@ -11,9 +14,6 @@ const dmSans = DM_Sans({
 const openSans = Open_Sans({
   subsets: ["latin"],
 });
-import AgencyImg from "@/assets/agency.webp";
-import AgencyImgsub from "@/assets/agencysub.png";
-import { motion, spring } from "framer-motion";
 
 const Agency = () => {
   return (
@@ -32,11 +32,11 @@ const Agency = () => {
           <div className="row">
             <div className="col-md-6  col-lg-5">
               <div className="agency-left">
-                <Image className="imgmain" src={AgencyImg} alt="AgencyImg" />
+                <Image className="imgmain" src={AgencyImg} alt="agencyImg" />
                 <Image
                   className="imgsub"
                   src={AgencyImgsub}
-                  alt="AgencyImgsub"
+                  alt="agencyImgsub"
                 />
               </div>
             </div>
