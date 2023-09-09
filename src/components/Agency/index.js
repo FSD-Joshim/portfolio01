@@ -14,7 +14,6 @@ const dmSans = DM_Sans({
 const openSans = Open_Sans({
   subsets: ["latin"],
 });
-
 const Agency = () => {
   return (
     <>
@@ -32,11 +31,11 @@ const Agency = () => {
           <div className="row">
             <div className="col-md-6  col-lg-5">
               <div className="agency-left">
-                <Image className="imgmain" src={AgencyImg} alt="agencyImg" />
+                <Image className="imgmain" src={AgencyImg} alt="agencyimg" />
                 <Image
                   className="imgsub"
                   src={AgencyImgsub}
-                  alt="agencyImgsub"
+                  alt="agencyimgsub"
                 />
               </div>
             </div>
@@ -78,5 +77,4 @@ const Agency = () => {
     </>
   );
 };
-
 export default Agency;

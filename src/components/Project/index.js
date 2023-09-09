@@ -83,7 +83,7 @@ const Project = () => {
             <div>
               <h3>
                 <div className="project-card">
-                  <Image src={Bitcoin} />
+                  <Image src={Bitcoin} alt="bitccoin" />
                   <h5 className={montserrat.className}>
                     Bitcoin and Economic Freedom
                   </h5>
@@ -101,7 +101,7 @@ const Project = () => {
             <div>
               <h3>
                 <div className="project-card">
-                  <Image src={Market} />
+                  <Image src={Market} alt="market" />
                   <h5 className={montserrat.className}>
                     Bitcoin and Economic Freedom
                   </h5>
@@ -119,7 +119,7 @@ const Project = () => {
             <div>
               <h3>
                 <div className="project-card">
-                  <Image src={Finance} />
+                  <Image src={Finance} alt="finance" />
                   <h5 className={montserrat.className}>
                     Bitcoin and Economic Freedom
                   </h5>
@@ -137,7 +137,7 @@ const Project = () => {
             <div>
               <h3>
                 <div className="project-card">
-                  <Image src={Bitcoin} />
+                  <Image src={Bitcoin} alt="bitcoin" />
                   <h5 className={montserrat.className}>
                     Bitcoin and Economic Freedom
                   </h5>
